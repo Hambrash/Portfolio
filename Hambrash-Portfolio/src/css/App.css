@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Mukta';
+}
+
+.logo1{
+    height: 50px;
+    width: 120px;
+}
+
+.bg{
+    background-color: rgba(34, 33, 33, 0.411);
+    color: #E9DCD6;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid white;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+    border-radius: 5px;
+
+  }
+
+.about-text{
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 87, 34, 0.7);
+  
+}
+.about-para{
+    text-shadow: 0 0 10px #E9DCD6;
+}
+
+.typing-container {
+    min-height: 150px; /* Adjust this value based on the height of your text */
+    overflow: hidden;  /* Ensure no overflow issues with the typing effect */
+  }
+
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Animation for sliding in from the left */
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the text */
+  .slide-right {
+    animation: slideInFromRight 1s ease-out forwards;
+  }
+  
+  .slide-left {
+    animation: slideInFromLeft 1s ease-out forwards;
+  }

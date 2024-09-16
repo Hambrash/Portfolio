@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: #E9DCD6;
+}
+
+.height{
+    height: 100vh;
+}
+
+.social a {
+    text-decoration: none;
+    color: #E9DCD6;
+  }
+
+  /* Animation for sliding in from the right */
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Animation for sliding in from the left */
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the text */
+  .slide-right {
+    animation: slideInFromRight 1s ease-out forwards;
+  }
+  
+  .slide-left {
+    animation: slideInFromLeft 1s ease-out forwards;
+  }
+  
+  /* Additional styling for smooth transitions */
+  .text-container {
+    overflow: hidden; /* Ensure the animation doesn't look weird as it slides in */
+  }
+
+  .expert-para{
+    text-shadow: 0 0 10px #FFB0E9;
+}
+  
+  
