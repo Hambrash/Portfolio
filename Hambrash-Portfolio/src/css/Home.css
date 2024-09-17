@@ -54,4 +54,61 @@ body{
     text-shadow: 0 0 10px #FFB0E9;
 }
   
+.contact-image{
   
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.contact-para{
+  text-shadow: 0 0 10px #E9DCD6;
+}
+
+
+
+.contactForm{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
+.name, .email, .msg{
+  font-size: medium;
+  width: 100%;
+ 
+  margin: 0.5rem;
+  padding: 1.2rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(40, 40, 40);
+}
+
+.submitbtn{
+  background: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  padding: 0.75rem 3.5rem;
+
+}
+
+.icons a i{
+  
+  color: white;
+}
+
+.footer{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background:rgb(40, 40, 40,.3);
+}
+

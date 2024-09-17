@@ -7,7 +7,7 @@ export const About = () => {
   return (
     <>
       <br /><br /><br />
-      <div className="container">
+      <div className="container " style={{overflow:'hidden'}}>
 
       <h3 className='about-text slide-left mt-3'>About__ME?</h3>
 

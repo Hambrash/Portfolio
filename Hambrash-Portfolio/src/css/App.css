@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Handjet:wght@100..900&display=swap');
 *{
     box-sizing: border-box;
     font-family: 'Mukta';
@@ -10,7 +12,8 @@
 }
 
 .bg{
-    background-color: rgba(34, 33, 33, 0.411);
+    /* background-color: rgba(34, 33, 33, 0.411);  */
+    background-color:black;
     color: #E9DCD6;
 }
 
@@ -23,6 +26,10 @@
     border-radius: 5px;
 
   }
+
+.navbar-brand{
+  font-family: 'Handjet';
+}
 
 .about-text{
     color: #fff;
