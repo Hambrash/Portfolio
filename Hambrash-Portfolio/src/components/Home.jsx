@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Resume from '../assets/resume.pdf'
 import '../css/Home.css';
 
 export const Home = () => {
@@ -34,11 +35,11 @@ export const Home = () => {
     <>
       <div className="container">
         <div className="d-flex flex-column justify-content-center align-items-center height text-center text-container"><br />
-          <h5 className="fw-200 fs-5 slide-left">I'm</h5>
+          <h5 className="fw-200 fs-5 slide-left">Hello , I'm</h5>
           <h2 className="slide-right">HAMBRASH P B</h2>
           <h2 className="display-6 mt-1" style={{ fontWeight: 'bold',color:'#FF7E69' }}>{text}</h2>
           <p className="fs-6 mt-2 ">"A passionate frontend developer, constantly driven by the desire to learn <br /> and innovate Crafting intuitive and engaging digital experiences is at the heart of what I do.."</p>
-          <a href="" className="btn btn-secondary">Curriculum Vitae</a>
+          <a href={Resume} className="btn btn-secondary">Curriculum Vitae</a>
           <div className="d-flex social text-center mt-4">
             <a href="https://www.instagram.com/hambrish_24/"><i className="fa-brands fa-instagram fa-2x me-4"></i></a>
             <a href="mailto:hambrish9507@gmail.com"><i className="fa-solid fa-envelope fa-2x me-4"></i></a>
