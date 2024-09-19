@@ -29,7 +29,7 @@ export const Navigation = () => {
         <>
               <Navbar ref={navbarRef} fixed="top" expand="lg" expanded={expanded} onToggle={() => setExpanded(!expanded)} className="bg">
             <Container>
-                <Navbar.Brand href="#home" style={{ color: '#E9DCD6', fontSize: '35px' }}>
+                <Navbar.Brand href="#home" style={{ color: '#E9DCD6', fontSize: '30px' }}>
                     H a m b r a s h
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
