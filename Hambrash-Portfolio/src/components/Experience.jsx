@@ -66,18 +66,13 @@ export const Experience = () => {
 
         <div className="container">
             <div className="row">
-                <div className="col-md-6 text-center">
+                <div className="col-md-12 text-center">
                     <p className="lead" style={{color:'#E9DCD6'}}>
                     For projects code , click the button below to travel to my <span className='expert-para' style={{color: '#FFB0E9'}}>Github</span>.
                     </p>
                     <a href="https://github.com/Hambrash" className="btn btn-secondary text-white ">Github Profile</a>
                 </div>
-                <div className="col-md-6 text-center">
-                    <p className="lead" style={{color:'#E9DCD6'}}>
-                        To see my Projects , click below button to travel to my <span className='expert-para'
-                        style={{color: '#FFB0E9'}}>Projects</span></p>
-                        <a href="" className="btn btn-secondary text-white ">Projects</a>
-                </div>
+                
             </div>
         </div><br /><br />
 

@@ -41,7 +41,7 @@ export const Navigation = () => {
                         <Nav.Link as={Link} to="/About" style={{ color: '#E9DCD6' }} onClick={() => setExpanded(false)}>
                             About
                         </Nav.Link>
-                        <Nav.Link as={Link} to="/Projects" style={{ color: '#E9DCD6' }} onClick={() => setExpanded(false)}>
+                        <Nav.Link as={Link} to="/Project" style={{ color: '#E9DCD6' }} onClick={() => setExpanded(false)}>
                             Projects
                         </Nav.Link>
                         <Nav.Link as={Link} to="/Experience" style={{ color: '#E9DCD6' }} onClick={() => setExpanded(false)}>
