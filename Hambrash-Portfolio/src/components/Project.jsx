@@ -19,6 +19,22 @@ export const Project = () => {
           </div>
         </div>
       </div>
+      <div className="container">
+        <br />
+        <div className="card text-center">
+          <div className="card-header">
+            #PROJECT 2
+          </div>
+          <div className="card-body">
+            <h5 className="card-title">ResolveHub - FRONTEND </h5>
+            <p className="card-text">ResolveHub is a web application where user can register a complaint what he / she faces in day to day life in college.</p>
+            <a href="https://resolve-hub.vercel.app/" className="btn btn-dark">VIEW MY WORK</a>
+          </div>
+          <div className="card-footer text-body-secondary">
+            06/12/2024
+          </div>
+        </div>
+      </div>
     
     </>
   )
